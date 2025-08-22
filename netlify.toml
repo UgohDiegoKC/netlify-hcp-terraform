@@ -1,0 +1,7 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build" # change to "dist" or ".next" depending on your framework
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
