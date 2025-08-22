@@ -11,6 +11,7 @@ provider "netlify" {
   # token is read from the NETLIFY_TOKEN env var when omitted
 }
 
+
 # Optional: configure the GitHub provider to auto-add the deploy key into your repository.
 # provider "github" {
 #   owner = var.github_owner

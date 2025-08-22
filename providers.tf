@@ -8,8 +8,8 @@ terraform {
   }
   required_providers {
     netlify = {
-      source  = "netlify/netlify"
-      version = ">= 0.2.0"
+      source  = "AegirHealth/netlify"
+      version = ">= 0.1.6"
     }
     random = {
       source  = "hashicorp/random"
