@@ -1,0 +1,11 @@
+# Local Terraform state (HCP Terraform will store remote state)
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
