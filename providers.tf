@@ -1,9 +1,9 @@
 terraform {
   required_version = ">= 1.6.0"
   cloud {
-    organization = var.tfc_organization
+    organization = "diegokc"
     workspaces {
-      name = var.tfc_workspace
+      name = "netlify-hcp-terraform"
     }
   }
   required_providers {

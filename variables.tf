@@ -1,13 +1,11 @@
 variable "tfc_organization" {
   description = "HCP Terraform organization name"
   type        = string
-  default     = "diegokc"
 }
 
 variable "tfc_workspace" {
   description = "HCP Terraform workspace name"
   type        = string
-  default     = "netlify-hcp-terraform"
 }
 
 variable "project_name" {
